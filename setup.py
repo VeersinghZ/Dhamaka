@@ -20,7 +20,7 @@ setup(
     keywords=['BSOD', 'Spamming', 'Education', 'Fun', 'VeersinghZ'],
     classifiers=[
         "Development Status :: 1 - Planning",
-        "Intended Audience :: Students",
+        "Intended Audience :: Education",
         "Programming Language :: Python :: 3",
         "Operating System :: Microsoft :: Windows",
     ]
