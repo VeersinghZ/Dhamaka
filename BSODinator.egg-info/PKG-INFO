@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: BSODinator
+Version: 0.0.1
+Summary: BSODinator
+Author: VeersinghZ
+Author-email: codergrand@gmail.com
+Keywords: BSOD,Spamming,Education,Fun,VeersinghZ
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Students
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+A Python-Module that helps you crash Anyone's PC or Laptop. Note: *This is for don't educational Purposes only. Don't Use it against anyone*
