@@ -1,8 +1,0 @@
-LICENSE
-setup.py
-BSODinator/__init__.py
-BSODinator.egg-info/PKG-INFO
-BSODinator.egg-info/SOURCES.txt
-BSODinator.egg-info/dependency_links.txt
-BSODinator.egg-info/requires.txt
-BSODinator.egg-info/top_level.txt

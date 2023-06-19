@@ -1,12 +1,12 @@
 Metadata-Version: 2.1
-Name: BSODinator
+Name: Dhamaka
 Version: 0.0.1
-Summary: BSODinator
+Summary: ##Dhamaka
 Author: VeersinghZ
 Author-email: codergrand@gmail.com
-Keywords: BSOD,Spamming,Education,Fun,VeersinghZ
+Keywords: Danger,Spamming,Education,Fun,VeersinghZ
 Classifier: Development Status :: 1 - Planning
-Classifier: Intended Audience :: Students
+Classifier: Intended Audience :: Education
 Classifier: Programming Language :: Python :: 3
 Classifier: Operating System :: Microsoft :: Windows
 Description-Content-Type: text/markdown

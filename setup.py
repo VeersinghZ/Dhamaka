@@ -3,12 +3,12 @@ import codecs
 import os
 
 VERSION = '0.0.1'
-DESCRIPTION = 'BSODinator'
+DESCRIPTION = '##Dhamaka'
 LONG_DESCRIPTION = "A Python-Module that helps you crash Anyone's PC or Laptop. Note: *This is for don't educational Purposes only. Don't Use it against anyone*"
 
 # Setting up
 setup(
-    name="BSODinator",
+    name="Dhamaka",
     version=VERSION,
     author="VeersinghZ",
     author_email="codergrand@gmail.com",
@@ -17,7 +17,7 @@ setup(
     long_description=LONG_DESCRIPTION,
     packages=find_packages(),
     install_requires=['multiprocessing', 'requests', 'numpy', 'webbrowser'],
-    keywords=['BSOD', 'Spamming', 'Education', 'Fun', 'VeersinghZ'],
+    keywords=['Danger', 'Spamming', 'Education', 'Fun', 'VeersinghZ'],
     classifiers=[
         "Development Status :: 1 - Planning",
         "Intended Audience :: Education",
