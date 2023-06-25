@@ -1,8 +1,7 @@
 from setuptools import setup, find_packages
-import codecs
-import os
 
-VERSION = '0.0.1'
+
+VERSION = '0.0.2'
 DESCRIPTION = '##Dhamaka'
 LONG_DESCRIPTION = "A Python-Module that helps you crash Anyone's PC or Laptop. Note: *This is for don't educational Purposes only. Don't Use it against anyone*"
 
@@ -13,15 +12,16 @@ setup(
     author="VeersinghZ",
     author_email="codergrand@gmail.com",
     description=DESCRIPTION,
-    long_description_content_type="text/markdown",
     long_description=LONG_DESCRIPTION,
+    long_description_content_type="text/markdown",
     packages=find_packages(),
-    install_requires=['multiprocessing', 'requests', 'numpy', 'webbrowser'],
+    install_requires=['requests', 'numpy'],
     keywords=['Danger', 'Spamming', 'Education', 'Fun', 'VeersinghZ'],
     classifiers=[
-        "Development Status :: 1 - Planning",
+        "Development Status :: 3 - Alpha",
         "Intended Audience :: Education",
+        "License :: OSI Approved :: MIT License",
         "Programming Language :: Python :: 3",
-        "Operating System :: Microsoft :: Windows",
+        "Operating System :: OS Independent",
     ]
 )

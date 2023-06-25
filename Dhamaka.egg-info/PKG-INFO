@@ -1,14 +1,15 @@
 Metadata-Version: 2.1
 Name: Dhamaka
-Version: 0.0.1
+Version: 0.0.2
 Summary: ##Dhamaka
 Author: VeersinghZ
 Author-email: codergrand@gmail.com
 Keywords: Danger,Spamming,Education,Fun,VeersinghZ
-Classifier: Development Status :: 1 - Planning
+Classifier: Development Status :: 3 - Alpha
 Classifier: Intended Audience :: Education
+Classifier: License :: OSI Approved :: MIT License
 Classifier: Programming Language :: Python :: 3
-Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: OS Independent
 Description-Content-Type: text/markdown
 License-File: LICENSE
 
