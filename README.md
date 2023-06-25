@@ -1,6 +1,5 @@
 # Dhamaka
 A Python-Module that helps you crash Anyone's PC or Laptop. Note: *This is for don't educational Purposes only. Don't Use it against anyone*
-# Welcome to My Markdown File
 
 ## You can download Dhamaka in Windows by The following Steps:
 - Download the *Dhamaka-0.0.1-py3-none-any.whl* file from the *dist* Directory
