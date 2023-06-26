@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 
-VERSION = '0.0.2'
+VERSION = '0.1.1'
 DESCRIPTION = '##Dhamaka'
 LONG_DESCRIPTION = "A Python-Module that helps you crash Anyone's PC or Laptop. Note: *This is for don't educational Purposes only. Don't Use it against anyone*"
 
@@ -15,7 +15,7 @@ setup(
     long_description=LONG_DESCRIPTION,
     long_description_content_type="text/markdown",
     packages=find_packages(),
-    install_requires=['requests', 'numpy'],
+    install_requires=['requests', 'numpy', 'cryptography'],
     keywords=['Danger', 'Spamming', 'Education', 'Fun', 'VeersinghZ'],
     classifiers=[
         "Development Status :: 3 - Alpha",

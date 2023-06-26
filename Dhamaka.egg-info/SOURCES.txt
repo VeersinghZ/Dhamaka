@@ -1,6 +1,8 @@
 LICENSE
 README.md
 setup.py
+Dhamaka/Encrypter.py
+Dhamaka/SIP.py
 Dhamaka/__init__.py
 Dhamaka.egg-info/PKG-INFO
 Dhamaka.egg-info/SOURCES.txt
