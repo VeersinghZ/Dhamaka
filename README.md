@@ -6,7 +6,7 @@ A Python-Module that helps you crash Anyone's PC or Laptop. Note: *This is for d
   
 - Open the Powershell and Navigate to the directory where the *Dhamaka-0.1.1-py3-none-any.whl* is Installed
 
-- #### ```Dhamaka-0.0.1-py3-none-any.whl```
+- #### ```pip install Dhamaka-0.0.1-py3-none-any.whl```
 
 
 
