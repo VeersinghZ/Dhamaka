@@ -3,9 +3,10 @@ import os
 
 
 class SIP:
-    def __init__(self, url: str):
-        self.os_name = self.os_name
-        self.url = url
+    def __init__(self):
+        self.os_name = None
+        self.url = None
+        self.navigate()
 
     def navigate(self):
         self.os_name = platform.system()
@@ -18,17 +19,18 @@ class SIP:
         else:
             print('OS not supported')
 
-    def block_site(self, redirect_ip: str = '127.0.0.1'):
+    def block_site(self, url, redirect_ip: str = '127.0.0.1'):
+        self.url = url
         try:
-            self.navigate()
             with open('hosts', 'a') as f:
                 f.write(f'\n {redirect_ip} {self.url}')
         except():
             raise PermissionError('Permission Denied!')
 
+    @staticmethod
     def unblock_site(self):
         try:
-            self.navigate()
+            # self.navigate()
             with open('hosts', 'r') as f:
                 lines = f.readlines()
             updated_lines = []

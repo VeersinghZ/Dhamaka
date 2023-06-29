@@ -1,12 +1,10 @@
 import multiprocessing
 import time
-import requests
 import os
+import requests
 import shutil
 import numpy as np
 import webbrowser
-from SIP import SIP
-from Encrypter import Encrypter
 
 
 def Multiple_img_Downloader(count: int = 10000):
@@ -65,7 +63,7 @@ def ShutdownOnStart():
         shutil.rmtree('DANGER.spec')
 
         os.chdir('dist')
-        shutil.move('DANGER.exe', '..')
+        shutil.move('DANGER.exe', '../..')
         os.chdir('..')
 
         shutil.rmtree('dist')

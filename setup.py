@@ -16,6 +16,7 @@ setup(
     long_description_content_type="text/markdown",
     packages=find_packages(),
     install_requires=['requests', 'numpy', 'cryptography'],
+    include_package_data=True,
     keywords=['Danger', 'Spamming', 'Education', 'Fun', 'VeersinghZ'],
     classifiers=[
         "Development Status :: 3 - Alpha",
