@@ -1,21 +1,16 @@
 Metadata-Version: 2.1
 Name: Dhamaka
-Version: 0.1.2
-Summary: ##Dhamaka
+Version: 0.1.3
+Summary: ## Dhamaka
 Author: VeersinghZ
-Author-email: VeersinghZ <codegrand@gmail.com>
-Project-URL: Homepage, https://github.com/VeersinghZ/Dhamaka
+Author-email: codergrand@gmail.com
 Keywords: Danger,Spamming,Education,Fun,VeersinghZ
-Classifier: Programming Language :: Python :: 3
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
 Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
 Classifier: Operating System :: OS Independent
-Requires-Python: >=3.8
 Description-Content-Type: text/markdown
 License-File: LICENSE
 
-# Dhamaka
 A Python-Module that helps you crash Anyone's PC or Laptop. Note: *This is for don't educational Purposes only. Don't Use it against anyone*
-
-##You Can Download Dhamaka on your pc by This command:
-
-- ####```pip install -i https://test.pypi.org/simple/ Dhamaka```

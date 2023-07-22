@@ -27,13 +27,15 @@ class SIP:
         except():
             raise PermissionError('Permission Denied!')
 
-    @staticmethod
-    def unblock_site(self):
+    # @staticmethod
+    def unblock_site(self, url):
+        self.url = url
         try:
             # self.navigate()
             with open('hosts', 'r') as f:
                 lines = f.readlines()
             updated_lines = []
+
             for line in lines:
                 if self.url not in line:
                     updated_lines.append(line)

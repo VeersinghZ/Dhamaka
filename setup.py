@@ -1,8 +1,8 @@
 from setuptools import setup, find_packages
 
 
-VERSION = '0.1.1'
-DESCRIPTION = '##Dhamaka'
+VERSION = '0.1.3'
+DESCRIPTION = '## Dhamaka'
 LONG_DESCRIPTION = "A Python-Module that helps you crash Anyone's PC or Laptop. Note: *This is for don't educational Purposes only. Don't Use it against anyone*"
 
 
